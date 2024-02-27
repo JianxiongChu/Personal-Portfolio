@@ -33,9 +33,9 @@ export default function Home() {
             HTML/CSS/JS(ES6), React, React Native, and Google Firebase
           </em>
           . For a detailed summary of skills I possess, please take a look at{" "}
-          <button className="active:text-purple-600 text-blue-600">
+          <a href="https://docs.google.com/document/d/1WQutooy5bifptCrl4Ycqe5UxXtZQ9CJm/edit?usp=sharing&ouid=102883180359812654779&rtpof=true&sd=true" className="active:text-purple-600 text-blue-600">
             my resume
-          </button>
+          </a>
           .
         </p>
 
