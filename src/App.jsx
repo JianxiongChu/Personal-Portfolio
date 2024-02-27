@@ -17,12 +17,10 @@ const pages = {
 export default function App() {
   const [focus, setFocus] = useState("About Me");
 
-  
-
   const page = pages[focus] || <Home />;
 
   return (
-    <div className="flex flex-row w-screen h-screen">
+    <div className="flex flex-row">
       <div>
         <NavigationPane focus={focus} setFocus={setFocus}/>
       </div>
