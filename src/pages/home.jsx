@@ -1,5 +1,5 @@
 import * as React from "react";
-import profile from "../assets/sus.gif";
+import profile from "../assets/portrait.jpg";
 import SkillCard from "../components/SkillCard";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { IconContext } from "react-icons";
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-1/3 flex flex-col justify-start items-center ">
-        <img className="pt-6" alt="profile" src={profile} />
+        <img className="pt-6 object-scale-down size-2/3" alt="profile" src={profile} />
           Email: xsjwj234884@gmail.com (Personal)
           <br />
           Tel: 660-280-4597
