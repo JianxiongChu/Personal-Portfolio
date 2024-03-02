@@ -6,4 +6,5 @@ A simple portfolio page developed and maintained by Jianxiong Chu.
 
 To-do:
 > Responsive design for devices with smaller screens
+>
 > Add portfolio items
